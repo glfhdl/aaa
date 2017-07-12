@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Diary(Final_Report_02_20151046)</string>
+    <string name="main_introduction">안녕하세요! My Diary 초기화면입니다!\n
+   추가기능1: 제목검색하는 상단 검색바 구현\n
+    </string>
+    <string name="Introudce_developer">
+        개발자 소개\n\n
+        *02분반 / 20151046 / 진슬기\n
+        *다이어리를 작성하는 어플입니다.\n
+        *추가기능1: 제목검색하는 상단 검색바 구현\n
+            검색 성공시 수정하는 페이지로 이동, 실패시 실패 토스트 메세지 띄움\n
+    </string>
+
+</resources>
+

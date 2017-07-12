@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dd.final_report_02_20151046.NaviAdapter">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/navi_drawable"
+        android:layout_width="342dp"
+        android:layout_height="500dp"
+        tools:openDrawer="start">
+
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:importantForAccessibility="yes">
+
+            <ListView
+                android:id="@+id/navi_listview"
+                android:layout_width="186dp"
+                android:layout_height="match_parent">
+
+            </ListView>
+
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+</LinearLayout>
